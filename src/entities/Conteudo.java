@@ -2,19 +2,21 @@ package entities;
 
 public abstract class Conteudo {
 
-	private String titulo;
+	private String title;
 
 	private String description;
+	
+	protected final Double BASE_XP = 10.0; 
 
 	public Conteudo() {
 	}
 
-	public String getTitulo() {
-		return titulo;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
+	public void setTitle(String titulo) {
+		this.title = titulo;
 	}
 
 	public String getDescription() {
